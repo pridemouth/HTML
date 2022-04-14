@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<title>select, option</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form action="#" method="post">
+			<label for="select1">학과선택</label>
+			<select size="1" id="select1" style="width:150px;">
+			<!-- size는 한 번에 세로로 보여지는 옵션의 개수 -->
+			<!-- value는 서버로 보내질 값, selected 사용 가능 -->
+				<optgroup label="서울주간과정">
+					<option value="1">a</option>
+					<option value="2">b</option>
+					<option value="3">c</option>
+				</optgroup>
+				<optgroup label="서울야간과정">
+					<option value="4">A</option>
+					<option value="5">B</option>
+					<option value="6">C</option>
+				</optgroup>
+			</select>
+			<hr>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<title>고양이 사진 투고 형식</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<h2>고양이 사진 투고 형식</h2>
+		</header>
+		
+		<!-- tbl + btn section -->
+		<section>
+			<p><i>필요 사항을 기입한 후 투고 버튼을 눌러 주세요.</i></p>
+			<!-- table -->
+			<form action="#" method="post">
+				<table style="border:1px solid black; width:80%;">
+					<colgroup span="1" style="width:200px; background-color:#d3d3d3;">
+					<tr height="30px">
+						<th>고양이 이름</th>
+						<td>
+							<input type="text" id="catName" autofocus>
+						</td>
+					</tr>
+					<tr height="30px">
+						<th>주소</th>
+						<td>
+							<select id="address">
+								<option value="1">선택해주세요</option>
+								<option value="2">서울</option>
+								<option value="3">인천</option>
+								<option value="4">부산</option>
+							</select>
+						</td>
+					</tr>
+					<tr height="30px">
+						<th>성별</th>
+						<td>
+							<label>
+								<input type="radio" name="sex" id="male">남자
+							</label>
+							<label>
+								<input type="radio" name="sex" id="female">여자
+							</label>
+						</td>
+					</tr>
+					<tr height="30px">
+						<th>좋아하는 것</th>
+						<td>
+							<label>
+								<input type="checkbox" id="likes">생선
+							</label>
+							<label>
+								<input type="checkbox" id="likes">고기
+							</label>
+							<label>
+								<input type="checkbox" id="likes">우유
+							</label>
+							<label>
+								<input type="checkbox" id="likes">바삭바삭한 것
+							</label>
+							<label>
+								<input type="checkbox" id="likes">통조림
+							</label>
+							<label>
+								<input type="checkbox" id="likes">단것
+							</label>
+						</td>
+					</tr>
+					<tr height="30px">
+						<th>사진</th>
+						<td>
+							<label>
+								<input type="file" id="imageFile">
+							</label>
+						</td>
+					</tr>
+					<tr height="30px">
+						<th>기르는 주인 이름</th>
+						<td>
+							<label>
+								<input type="text" id="owner">
+							</label>
+						</td>
+					</tr>
+					<tr height="30px">
+						<th>메일 주소</th>
+						<td>
+							<label>
+								<input type="email" id="email">
+							</label>
+						</td>
+					</tr>
+					<tr height="30px">
+						<th>코멘트</th>
+						<td>
+							<textarea name="comments" rows="10" cols="50"></textarea>
+						</td>
+					</tr>
+				</table>
+				<!-- buttons -->
+				<input type="button" id="cancel" value="취소">
+				<input type="button" id="submit" value="투고">
+			</form>
+		</section>
+		
+		<!-- footer section -->
+		<footer style="padding-top:20px">
+			Copyright ⓒ Mossikkaengyi All Rights Reserved.
+		</footer>
+	</body>
+</html>

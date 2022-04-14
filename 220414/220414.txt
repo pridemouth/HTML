@@ -1,0 +1,18 @@
+html>
+
+	<select>
+	<datalist>
+	<textarea>
+	<button>
+	<section>, <article>
+	
+	+
+	<progress>, <meter>
+	<detail>, <summary>
+	<picture>
+	
+	시맨틱 태그
+	header, nav, section, article, aside, footer
+	-> <div> 안 써도 됨
+	
+java>
