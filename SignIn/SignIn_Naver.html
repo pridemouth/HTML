@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<title>SignIn Naver</title>
+		<meta charset="utf-8"/>
+		<style>
+			.font
+			{
+				font-weight:bold;
+			}
+			.small_font
+			{
+				color:gray;
+				font-size:1px;
+			}
+			.inputfield
+			{
+				
+			}
+		</style>
+	</head>
+	<body>
+		<form action="#" method="post">
+			<!-- input fields -->
+			<section>
+				<!-- id input field -->
+				<p>
+					<label>
+						<span class="font">아이디</span><br>
+						<input type="text" id="user_id" class="inputfield" placeholder="@naver.com" required/>
+					</label>
+				</p>
+				<!-- pw input field -->
+				<p>
+					<label>
+						<span class="font">비밀번호</span><br>
+						<input type="password" id="user_pw" class="inputfield" required/>
+					</label>
+				</p>
+				<!-- pw input field #2 -->
+				<p>
+					<label>
+						<span class="font">비밀번호 재확인</span><br>
+						<input type="password" id="user_pw" class="inputfield" required/>
+					</label>
+				</p>
+				<!-- name input field -->
+				<p>
+					<label>
+						<span class="font">이름</span><br>
+						<input type="text" id="user_name" class="inputfield" required/>
+					</label>
+				</p>
+				<!-- birthday input field -->
+				<p>
+					<label>
+						<span class="font">생년월일</span><br>
+						<input type="date" id="user_birth" class="inputfield" required/>
+					</label>
+				</p>
+				<!-- sex input field -->
+				<p>
+					<label>
+						<span class="font">성별</span><br>
+						<select name="user_sex" id="user_sex">
+							<option value="">성별</option>
+							<option value="male">남자</option>
+							<option value="female">여자</option>
+							<option value="none">선택 안함</option>
+						</select>
+					</label>
+				</p>
+				<!-- email input field -->
+				<p>
+					<label>
+						<span class="font">본인 확인 이메일</span><span class="small_font">(선택)</span><br>
+						<input type="email" id="user_email" class="inputfield" placeholder="선택입력"/>
+					</label>
+				</p>
+				<!-- phone number input field -->
+				<p>
+					<label>
+						<span class="font">휴대전화</span><br>
+						<select name="user_areaCode">
+							<option value="ROK">대한민국 +82</option>
+							<option value="USA/CAN">미국/캐나다 +1</option>
+						</select><br>
+						<input type="tel" placeholder="전화번호 입력" class="inputfield">
+						<input type="button" name="getVerifCode" value="인증번호 받기" class="inputfield"><br>
+						<input type="text" name="verifCode" placeholder="인증번호 입력하세요" class="inputfield">
+					</label>
+				</p>
+			</section>
+			<!-- signin buttom -->
+			<input type="button" id="signIn_Btn" name="goNext" value="가입하기" width="10px"/>
+		</form>
+	</body>
+</html>

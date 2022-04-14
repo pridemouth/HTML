@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<title>SignIn Github</title>
+		<meta charset="utf-8"/>
+		<style>
+			.t_font
+			{
+				font-family:D2Coding;
+				color:gray;
+				font-weight:bold;
+			}
+			.q_font
+			{
+				font-family:D2Coding;
+				color:#aaf0d1;
+				font-weight:bold;
+			}
+			.a_input
+			{
+				border:none;
+				background-color:#122245;
+				color:#ffffff;
+			}
+		</style>
+	</head>
+	<body style="background-color:#122245;">
+		<form action="#" method="post">
+			<!-- title section -->
+			<section style="margin-bottom:20px;">
+				<p>
+					<span class="t_font">
+						Welcome to GitHub!<br>
+						Let's begin the adventure
+					</span>
+				</p>
+			</section>
+			<!-- input field section -->
+			<section>
+				<!-- email input field -->
+				<p>
+					<label>
+						<span class="q_font">Enter your email<br>→</span>
+						<input type="email" id="user_email" class="a_input" required/>
+					</label>
+				</p>
+				<!-- password input field -->
+				<p>
+					<label>
+						<span class="q_font">Create a password<br>→</span>
+						<input type="password" id="user_password" class="a_input" required/>
+					</label>
+				</p>
+				<!-- username input field -->
+				<p>
+					<label>
+						<span class="q_font">Enter a username<br>→</span>
+						<input type="text" id="user_name" class="a_input" required/>
+					</label><br>
+				</p>
+				<p>
+					<label>
+						<span class="q_font">Would you like to receive product updates and announcement via email?<br> Type "y" for yes or "n" for no<br>→</span>
+						<input type="text" id="user_announcement" maxlength="1" class="a_input" required/>
+					</label><br>
+				</p>
+				<p>
+					<label>
+						<span class="q_font">Verify your account</span>
+					</label>
+				</p>
+			</section>
+			<input type="submit" value="Create account" width="10px">
+		</form>
+	</body>
+</html>

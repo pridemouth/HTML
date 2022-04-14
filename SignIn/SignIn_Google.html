@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<title>SignIn Google</title>
+		<meta charset="utf-8"/>
+		<style>
+			.title_font
+			{
+				font-size:19px;
+				font-weight:bold;
+			}
+			.gray_font
+			{
+				font-size:10px;
+				color:gray;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="#" method="post">
+			<!-- title -->
+			<header style="margin-bottom:20px;">
+				<span class="title_font">Google 계정 만들기</span>
+			</header>
+			<!-- input fields -->
+			<section>
+				<!-- name input fields -->
+				<p>
+					<label>
+						<input type="text" id="familyName" placeholder="성" required/>
+					</label>
+					<label>
+						<input type="text" id="personalName" placeholder="이름" required/>
+					</label>
+				</p>
+				<!-- username input field -->
+				<p>
+					<label>
+						<input type="text" id="userName" placeholder="사용자 이름@gmail.com" required/>
+					</label><br>
+					<span class="gray_font">문자, 숫자, 마침표를 사용할 수 있습니다</span>
+				</p>
+				<!-- password input fields -->
+				<p>
+					<label>
+						<input type="password" id="password" placeholder="비밀번호" required/>
+					</label>
+					<label>
+						<input type="password" id="password" placeholder="확인" required/>
+					</label><br>
+					<label>
+						<input type="checkbox" value="revealPW"/> 비밀번호 표시
+					</label>
+				</p>
+			</section>
+			<!-- sign in button -->
+			<input type="button" id="signIn_btn" value="다음">
+		</form>
+	</body>
+</html>
