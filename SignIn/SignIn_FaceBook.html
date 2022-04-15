@@ -3,22 +3,78 @@
     <head>
         <title>SignIn_FaceBook</title>
         <meta charset="utf-8">
+		<style>
+			div
+			{
+				margin:5px;
+				padding:10px;
+			}
+		</style>
     </head>
     <body>
-        <!-- texts -->
-        <div style="border-bottom:1px solid gray; padding-bottom:20px">
-            <h3>새 계정 만들기</h3>
-            빠르고 쉽습니다.
-        </div>
-        <!-- family name, personal name -->
-        <!-- phoneNumber -->
-        <!-- password -->
-        <!-- birthday -->
-        <!-- sex -->
-        <!-- text -->
-        <!-- signIn button -->
-        <div>
+		<!-- Wrapper -->
+		<section id="wrapper">
+			<!-- header section -->
+			<header id="section_header">
+				<div>
+					<h1>가입하기</h1>
+					<span>빠르고 쉽습니다.</span>
+				</div>
+			</header>
+			<!-- form section -->
+			<section id="section_form">
+				<form action="#" method="post">
+					<!-- family name, personal name -->
+					<div>
+						<label>
+							<input type="text" id="family_name" placeholder="성(姓)">
+						</label>
+						<label>
+							<input type="text" id="personal_name" placeholder="이름(성은 제외)">
+						</label>
+					</div>
+					<!-- phoneNumber -->
+					<div>
+						<label>
+							<input type="text" id="call" placeholder="휴대폰 번호 또는 이메일">
+						</label>
+					</div>
+					<!-- password -->
+					<div>
+						<label>
+							<input type="password" id="password" placeholder="새 비밀번호">
+						</label>
+					</div>
+					<!-- birthday -->
+					<div>
+						<p>생일<br>
+							<input type="date" id="birthday" placeholder="">
+						</p>
+					</div>
+					<!-- sex -->
+					<div>
+						<p>성별<br>
+							<label>여성
+								<input name="sex" type="radio" value="1">
+							</label>
+							<label>남성
+								<input name="sex" type="radio" value="2">
+							</label>
+							<label>개인 지정
+								<input name="sex" type="radio" value="3">
+							</label>
+						</p>
+					</div>
+					<!-- text -->
+					<!-- signIn button -->
+				</form>
+				<div>
+					<article>
+						<span>가입하기 버튼을 클릭하면 Facebook의 약관, 데이터 정책 및 쿠키 정책에 동의하게 됩니다. FaceBook으로부터 SMS 알림을 받을 수 있으며 알림은 언제든지 옵트아웃할 수 있습니다.</span>
+					</article>
+				</div>
+			</section>
             <input type="button" id="signInBtn"value="가입하기" style="width:5%;"/>
-        </div>
+		</section>
     </body>
 </html>
