@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+h1
+{
+	font-size: 1.7em;
+}
+
+h2
+{
+	font-size:1.3em;
+}
+
+nav ul
+{
+	list-style-type: none;
+	background-color: gray;
+}
+
+nav ul li
+{
+	display: inline;
+	padding: 10px;
+	margin: 10px;
+}
+
+nav ul li a { text-decoration: none; }
+nav ul li a:link { color: white; }
+nav ul li a:visited { color: white; }
+nav ul li a:hover { color: black; }
+
+span.txt-title
+{
+	font-size: 1.1em;
+	padding-left: 10px;
+}
+
+span.txt-line
+{
+	padding-left: 30px;
+}
+
+section
+{
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #ccc;
+}
+
+aside
+{
+	padding: 10px;
+	margin: 10px;
+	background-color: green;
+}
+
+article.article
+{
+	border: 1px dotted black;
+	padding: 10px;
+	margin: 10px;
+}
+
+footer
+{
+	margin: 10px;
+	padding: 10px;
+	background-color: gray;
+	font-color: white;
+	font-size:1.1em;
+	text-align: center;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+a
+{
+	text-decoration: none;
+	color: pink;
+}
+
+/* 링크 위에 마우스 포인터 오버 시 */
+a:hover
+{
+	color: red;
+}
+
+/* 링크 실행 시 */
+a:active
+{
+	color: pink;
+}
+
+/* 링크 방문 이후 */
+a:visited
+{
+	color: gray;
+}
+
+h1
+{
+	
+}
+
+span.txt-thruline
+{
+	text-decoration: line-through;
+}
+
+span.txt-underline
+{
+	text-decoration: underline;
+}

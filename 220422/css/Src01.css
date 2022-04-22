@@ -1,0 +1,41 @@
+
+@charset "utf-8";
+
+#container 
+{
+	width: 650px;
+	margin: 0 auto;
+}
+
+#check
+{
+	width: 640px;
+	border: 1px solid #ccc;
+}
+
+h1
+{
+	color: white;
+	background-color: black;
+	font-size: 1em;
+	margin: 0px;
+	padding: 10px;
+}
+
+h2
+{
+	color: red;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+p
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+span.txt_highlight
+{
+	color: blue;
+}

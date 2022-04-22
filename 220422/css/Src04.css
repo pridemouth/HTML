@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.sqbullet
+{
+	list-style: square;
+	list-style-position: inside;
+}
+
+.discbullet
+{
+	list-style: disc;
+}
+
+.nonebullet
+{
+	list-style: none;
+	list-style-position: outside;
+}
+
+.circlebullet
+{
+	list-style: circle;
+}
+
+.imgbullet
+{
+	list-style-image: url("../img/dot.png");
+}
