@@ -1,0 +1,41 @@
+html - box model 다음주
+python 진도 거의다 뺴서
+
+background-repeat : repeat-x;
+	<!--
+		background-repeat 속성을 명시해주지 않으면
+		default값은 repeat임
+		repeat, repeat-x, repeat-y, no-repeat, inherit 등의 속성값을 줄 수 있음.
+	-->
+
+background-attachment: fixed;
+	<!--
+		fixed, scroll
+	-->
+				
+background-position : center bottom;
+	<!--
+		center, bottom, top, left, right
+		: 30px, 20px 등으로도 줄 수 있음.
+	-->
+				
+background-size : 
+	<!--
+		auto
+		contain
+		cover
+	-->
+	
+background-origin :
+	배경(이미지)의 원점을 지정
+	<!--
+		border-box
+		padding-box
+		content-box
+	-->
+	
+background-clip :
+	배경(이미지)를 자르는 방식을 지정
+	<!--
+		
+	-->
