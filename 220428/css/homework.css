@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body {
+	width: 85%;
+	background: url("../img/bg3.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position : bottom right;
+}
+
+h1 {
+	
+}
+
+p {
+	
+}
