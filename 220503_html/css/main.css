@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+body {
+	background: url("../img/bg-stripe01.png");
+	background-repeat: repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.inlink {
+	color: #ff8126;
+}
+
+a.outlink {
+	color: #ff8126;
+}
+
+div#wrap {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 80px;
+	padding-right: 80px;
+	margin: 40px;
+	border: 1px solid #f6bb9e;
+	background: white;
+}
+
+div h2 {
+	border: 1px dotted #94c8b1;
+	border-left: 10px solid #d0e35b;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	color: #6fbb9a;
+}
+
+header span {
+	color: #d0e35b;
+}
+
+header p#lead {
+	border: 1px dotted #6fbb9a;
+	border-left: none;
+	border-right: none;
+	padding: 15px;
+}
+
+nav {
+	padding-top: 16px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 1px;
+}
+
+section {
+	background: url("../img/bg-stripe02.png");
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+section article {
+	background: #fafa96;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-top: 35px;
+}
+
+article a {
+	display: inline-block;
+	float: right;
+	padding-right: 15px;
+}
+
+span.title-male {
+	font-size: 0.9em;
+	color: blue;
+}
+
+span.title-female {
+	font-size: 0.9em;
+	color: red;
+}
+
+.crop {
+	width: 150px;
+	height: 100px;
+	overflow: hidden;
+	border: 5px solid orange;
+	border-radius: 10px;
+}
