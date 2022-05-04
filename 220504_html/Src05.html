@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<title>position absolute 2</title>
+		<meta charset="utf-8">
+		<style>
+		
+		div {
+			position: absolute;
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+			font-size: 26px;
+		}
+		
+		.content1 {
+			left: 100px;
+			top: 70px;
+			z-index: 1;
+			background-color: lightbloue;
+		}
+		
+		.content2 {
+			left: 130px;
+			top: 100px;
+			z-index: 3;
+			background-color: lightyellow;
+		}
+		
+		.content3 {
+			left: 160px;
+			top: 50px;
+			z-index: 2;
+			background-color: lightgreen;
+		}
+		
+		</style>
+		<!-- <link src="" rel="stylesheet"> -->
+	</head>
+	<body>
+		<div class="content1">1</div>
+		<div class="content2">2</div>
+		<div class="content3">3</div>
+	</body>
+</html>

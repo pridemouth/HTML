@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<title>position absolute</title>
+		<meta charset="utf-8">
+		<style>
+		#wrap {
+			position: relative;
+			width: 300px;
+			height: 300px;
+			margin: 10px 10px;
+			border: 1px solid black;
+		}
+		
+		.box {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			background: #0094ff;
+		}
+		
+		#crd1 {
+			top: 0;
+			left: 0;
+		}
+		
+		#crd2 {
+			top: 0;
+			right: 0;
+		}
+		
+		#crd3 {
+			bottom: 0;
+			left: 0;
+		}
+		
+		#crd4 {
+			bottom: 0;
+			right: 0;
+		}
+		
+		#crd5 {
+			top: 40%;
+			right: 40%;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">		
+			<div class="box" id="crd1">CRD1</div>
+			<div class="box" id="crd2">CRD2</div>
+			<div class="box" id="crd3">CRD3</div>
+			<div class="box" id="crd4">CRD4</div>
+			<div class="box" id="crd5">CRD5</div>
+		</div>
+	</body>
+</html>
